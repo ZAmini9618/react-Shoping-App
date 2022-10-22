@@ -1,0 +1,255 @@
+.details {
+    width: 90% !important;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.details .img-container {
+    max-width: 39em;
+    width: 100%;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 6em;
+    margin-left: 30em;
+}
+
+.img-containerCart {
+    max-width: 15em;
+    width: 91%;
+    margin: 20px;
+    height: 14em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    position: relative;
+    left: 0em;
+    box-shadow: 0 10px 10px rgb(216, 220, 222);
+    background-color: #ccc;
+}
+
+.details .img-container:hover {
+    background-size: 150%;
+    border: 1px solid #ddd;
+    cursor: zoom-in;
+}
+
+.box-details {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+    position: relative;
+    right: 42em;
+    bottom: 32em;
+}
+
+.box-details h2 {
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    position: relative;
+    left: 0em;
+    top: 0em;
+}
+
+.box-details button,
+.box-details .cart {
+    outline: none;
+    background-color: rgb(252, 39, 82);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-right: 12px;
+    margin-top: 10px;
+    border: none;
+}
+
+.box-details button,
+.box-details .cart:hover {
+    background-color: rgb(254, 68, 105);
+}
+
+.back {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    margin-right: -7px;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 0 3px 3px #ccc;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5.6em;
+    right: -6em;
+    height: 55px;
+    width: 56px;
+}
+
+.back:hover {
+    background-color: rgba(122, 184, 250, 0.434);
+}
+
+.backcart {
+    padding: 12px 14px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 60em;
+    margin-top: 0em;
+    background-color: snow;
+    box-shadow: 0 3px 3px #ccc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+    bottom: 3.9em;
+    text-decoration: none;
+}
+
+.backcart:hover {
+    color: crimson;
+}
+
+.colors button,
+.sizes button {
+    width: 35px;
+    height: 35px;
+}
+
+.boxDetailsCart {
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+.boxDetailsCart h3 {
+    color: rgba(8, 94, 8, 0.834);
+    font-size: 21px;
+}
+
+.boxDetailsCart h2 {
+    color: rgb(20, 20, 20);
+}
+
+.boxDetailsCart h2:hover {
+    color: crimson;
+}
+
+.boxDetailsCart p {
+    color: #474545;
+}
+
+.boxDetailsCart span {
+    color: #474545;
+}
+
+.box-details p {
+    line-height: 2.5;
+    margin: 10px -61px;
+    margin-top: 10px;
+    margin-right: -61px;
+    margin-right: -61px;
+    opacity: 0.8;
+    font-weight: 600;
+    margin-right: 0.7em;
+    margin-top: 1em;
+}
+
+.box-details span {
+    line-height: 1.5;
+    margin: 10px -61px;
+    margin-top: 10px;
+    margin-right: -61px;
+    margin-right: -61px;
+    opacity: 0.8;
+    font-weight: 600;
+    margin-right: -11.3em;
+    margin-top: -4em;
+}
+
+.box-details h3 {
+    color: green;
+    position: relative;
+    left: -14px;
+    font-weight: 700;
+    font-size: 25px;
+    top: 1em;
+}
+
+.PriceIcon {
+    color: green;
+    margin-right: 1em;
+}
+
+.box-details .thumb {
+    display: flex;
+    cursor: pointer;
+}
+
+.box-details .thumb img {
+    width: 50px;
+    height: 45px;
+    display: block;
+    object-fit: cover;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.box-details .cart {
+    padding: 10px 9px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 18px;
+}
+
+@media (max-width: 700px) {
+    header {
+        justify-content: space-between;
+    }
+    ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 0.98;
+        z-index: 99;
+        transition: 0.5s ease-in;
+    }
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+    ul li .menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .details {
+        padding: 0;
+    }
+    .box-details .thumb img {
+        width: 40px;
+        height: 35px;
+    }
+    .details .img-container {
+        height: 350px;
+    }
+}

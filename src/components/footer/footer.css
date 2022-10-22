@@ -1,0 +1,130 @@
+.sponserImg {
+  width: 96px;
+  height: 4em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 1em;
+  border-radius: 25px;
+  border: none;
+  position: relative;
+  margin-bottom: 29px;
+  margin-right: 103px;
+  cursor: pointer;
+}
+
+.Sponser {
+  display: flex;
+  width: 102% !important;
+  background-color: #fff;
+  display: flex;
+  background-color: #fff;
+  height: 140px;
+  position: relative;
+  top: 50px;
+  height: 140px;
+  position: relative;
+  top: 50px;
+  left: 12px;
+}
+
+.Footer {
+  width: 102% !important;
+  height: 100%;
+  position: relative;
+  left: 12px;
+  top: 50px;
+  background-color: #fff;
+}
+
+.textFooter {
+  padding: 45px 65px 23px 10px;
+}
+
+.textFooter h4 {
+  font-weight: 700;
+}
+
+.textFooter p {
+  color: #716e6e;
+  margin-bottom: 5rem !important;
+  margin-top: 2em;
+}
+
+.FooterList {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.FooterList h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.FooterList svg {
+  width: 50px;
+}
+
+.FooterList li {
+  display: block !important;
+  position: relative;
+  right: -30px;
+  padding: 15px 16px 10px 7px;
+  color: #4c4c4c;
+}
+
+.fallowMe {
+  position: relative;
+  right: 130px;
+}
+
+.fallowMe h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.fallowMe li {
+  position: relative;
+  top: 2em;
+  left: 11px;
+}
+
+.fallowMe svg {
+  color: #4c4c4c;
+}
+
+.imputBox {
+  position: relative;
+  top: 5em;
+  left: 5px;
+  width: 12em;
+  border: 1px solid #b2b0b0;
+  padding-right: 2px;
+  border-radius: 2px;
+}
+
+.person li {
+  display: block !important;
+  position: relative;
+  right: -15px;
+  padding: 15px 16px 10px 7px;
+  color: #4c4c4c;
+}
+
+.person h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.buy li {
+  display: block !important;
+  position: relative;
+  right: -15px;
+  padding: 15px 16px 10px 7px;
+  color: #4c4c4c;
+}
+
+.buy h5 {
+  font-weight: 700;
+  font-size: 20px;
+}

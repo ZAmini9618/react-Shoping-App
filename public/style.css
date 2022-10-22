@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'IranianSans';
+    src: url("/fonts/A-Iranian-Sans/IranianSans.ttf");
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'IranianSans' !important;
+    background-image: url('/img/abstract-watercolor-pastel-background_87374-137.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

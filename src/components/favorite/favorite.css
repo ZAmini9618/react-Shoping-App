@@ -1,0 +1,33 @@
+.detailsFavorite {
+    width: 40% !important;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.detailsFavorite h2 {
+    color: black;
+    margin-bottom: 1em;
+}
+
+.detailsFavorite h3 {
+    color: rgba(5, 94, 5, 0.862);
+    font-size: 18px;
+    margin-right: -1em;
+    margin-top: 3em;
+    font-weight: 800;
+}
+
+.FavoriteBox {
+    margin-right: 83px;
+    position: relative;
+    border: 1px solid #ccc;
+    transform: scaleY(0.98);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(2, 22, 66, 0.907);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.862);
+    margin-top: 15px;
+}

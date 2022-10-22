@@ -1,0 +1,92 @@
+.factor {
+    background-color: #fff;
+    width: 100% !important;
+    height: 100%;
+    position: relative;
+    border: 3px solid rgb(187, 186, 186);
+  }
+  
+  .factorHeader {
+    margin-top: 100px;
+  }
+  
+  .factor h1 {
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  .factor h4 {
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    bottom: 4em;
+    left: 8em;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .factor ul {
+    position: relative;
+    left: 2em;
+  }
+  
+  .factor ul li button {
+    position: relative;
+    background-color: rgb(251, 37, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 6px 19px 11px 16px;
+    border: none;
+    right: 76em;
+  }
+  
+  .factor ul li button:hover {
+    background-color: rgb(255, 0, 51);
+  }
+  
+  .factorTable table {
+    text-align: center;
+    width: 100%;
+    margin-top: 110px;
+    position: relative;
+    bottom: 30px;
+    border-left: 1px solid #c2c2c2;
+  }
+  
+  .factorTable tr td {
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+  }
+  
+  .factorTable th {
+    border: 2px solid #b2b0b0;
+    padding: 5px;
+  }
+  
+  .finalTotal {
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .finalTotal table {
+    justify-content: center;
+    width: 45%;
+    position: relative;
+    text-align: center;
+    left: 8px;
+  }
+  
+  .finalTotal table tr td {
+    border: 2px solid #8b8989;
+    padding: 20px;
+  }
+  
+  .textarea {
+    width: 40.5em;
+    right: 45.2em;
+    position: relative;
+    top: -12.5em;
+    height: 200px;
+  }
+  
